@@ -1,8 +1,8 @@
 import React from 'react'
-
-import logo2 from "../../assets/logo2.png"
-import logo3 from "../../assets/logo3.png"
-import logo4 from "../../assets/logo4.png"
+import logoOne from "../../assets/logo1.png"
+import logoTwo from "../../assets/logo2.png"
+import logoThree from "../../assets/logo3.png"
+import logoFour from "../../assets/logo4.png"
 import Container from "../Container/Container"
 
 const Logos = () => {
@@ -10,10 +10,10 @@ const Logos = () => {
         <div>
             <Container>
                 <div className="flex py-[117px] justify-between">
-                    
-                    <img src={logo2} alt="" />
-                    <img src={logo3} alt="" />
-                    <img src={logo4} alt="" />
+                    <img src={logoOne} alt="" />
+                    <img src={logoTwo} alt="" />
+                    <img src={logoThree} alt="" />
+                    <img src={logoFour} alt="" />
                 </div>
             </Container>
         </div>
