@@ -13,7 +13,7 @@ export default {
         'banner': "url('/src/assets/banner.png')",
         'service1' : "url('/src/assets/services1.png')",
         'service2' : "url('/src/assets/services2.png')",
-        'service3' : "url('/src/assets/services3.png')"
+        'service3' : "url('/src/assets/services3.png')",
       },
       fontFamily: {
         'pops': ['ui-sans-serif', 'system-ui']
