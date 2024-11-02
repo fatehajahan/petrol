@@ -12,7 +12,7 @@ const Learn = () => {
                     </div>
                     <div className="image relative">
                         <img src={learn} alt="" className='h-[390px]'/>
-                        <a href="#" className='bg-white text-[#F40404] font-semibold py-[13px] px-[30px] absolute top-0 left-0 mt-[190px] mb-[142px] mx-[282px] hover:bg-black hover:text-white hover:duration-1000'>Learn More</a>
+                        <a href="#" className='bg-white text-[#F40404] font-semibold py-[13px] px-[30px] absolute top-0 left-0 mt-[190px] mb-[142px] mx-[282px] hover:bg-[#F40404] hover:text-white duration-700'>Learn More</a>
                     </div>
                 </div>
             </Container>

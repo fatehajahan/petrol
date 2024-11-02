@@ -13,6 +13,7 @@ import Logos from './components/Logos/Logos'
 import ReadBlog from './components/ReadBlog/ReadBlog'
 import Location from './components/Location/Location'
 import Join from './components/Join/Join'
+import Footer from './components/Footer/Footer'
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <ReadBlog/>
       <Location/>
       <Join/>
+      <Footer/>
     </>
   )
 }
