@@ -30,8 +30,8 @@ const Footer = () => {
               </div>
 
               <div className="socialIcons flex gap-x-[10px] text-[30px] mt-[34px]">
-                <FaFacebookSquare className='text-[#F40404] text-[30px] rounded-full' />
-                <FaTwitterSquare className='text-[#F40404] rounded-full' />
+                <FaFacebookSquare className='text-[#F40404] text-[30px]' />
+                <FaTwitterSquare className='text-[#F40404]' />
                 <FaLinkedin className='text-[#F40404] ' />
                 <FaInstagramSquare className='text-[#F40404] ' />
               </div>
