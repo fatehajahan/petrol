@@ -12,7 +12,7 @@ import Container from '../Container/Container'
 const Footer = () => {
   return (
     <div>
-      <div className="footerup bg-[#1F1F1F] pt-[140px] pb-[260px]">
+      <div className="footerup bg-[#1F1F1F] md:pt-[140px] pt-[100px] md:pb-[260px] pb-[150px]">
         <Container>
           <div className="flex items-center">
             <div className="left-side pr-[145px] ">
@@ -72,7 +72,7 @@ const Footer = () => {
 
       <div className="footerbottom bg-[#282828]">
         <Container>
-          <h2 className='text-[#6C6C6C] text-[16px] font-medium py-[35px]'>© Copyright 2022 by AltDesain Studio – All right reserved.</h2>
+          <h2 className='text-[#6C6C6C] md:text-[16px] text-[10px] font-medium md:py-[35px] py-[10px]'>© Copyright 2022 by AltDesain Studio – All right reserved.</h2>
         </Container>
       </div>
     </div>
