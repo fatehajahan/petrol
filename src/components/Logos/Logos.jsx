@@ -9,7 +9,7 @@ const Logos = () => {
     return (
         <div>
             <Container>
-                <div className="md:flex md:py-[117px] justify-between ">
+                <div className="md:flex md:py-[117px] justify-between items-center">
                     <img src={logoOne} alt="" className='px-[50px] md:px-0'/>
                     <img src={logoTwo} alt="" className='px-[50px] md:px-0'/>
                     <img src={logoThree} alt="" className='px-[50px] md:px-0'/>
