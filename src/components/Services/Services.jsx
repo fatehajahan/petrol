@@ -8,9 +8,9 @@ const Services = () => {
         <div className='px-5 md:px-0'>
             <div className='md:pt-[28px] pt-[20px] md:flex items-center'>
             <div className="md:w-1/2">
-                <div className='md:ml-[380px] md:text-left md:pl-0 pb-[20px] md:pb-0'>
+                <div className='md:ml-[380px] md:text-left text-justify md:pl-0 pb-[20px] md:pb-0'>
                     <h3 className='md:text-[64px] text-[40px] font-bold'>Our Services</h3>
-                    <p className='md:w-[405px] w-full text-justify font-medium md:text-[16px] text-[18px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                    <p className='md:w-[405px] w-[300px] text-justify font-medium md:text-[16px] text-[15px]'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
             </div>
 

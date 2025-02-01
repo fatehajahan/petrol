@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import logo from "../../assets/Logo.png"
 import { CiMenuFries } from "react-icons/ci";
-
 import Container from '../Container/Container'
 
 const Navbar = () => {
