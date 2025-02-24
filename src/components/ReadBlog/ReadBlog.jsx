@@ -14,7 +14,7 @@ const ReadBlog = () => {
                 <div className="md:flex justify-between ">
                     <ReadBlogOther>
                         <img src={blog1} alt="" className='md:w-auto w-full md:h-auto h-[400px]'/>
-                        <p className='absolute top-0 left-0 md:text-[24px] text-[20px]  font-bold text-white md:w-[249px] w-[260px] pt-[75px] md:pl-[46px]'>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
+                        <p className='absolute top-0 left-0 md:text-[24px] text-[20px] text-center font-bold text-white md:w-[249px] w-[260px] pt-[75px] pl-[46px]'>lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod.</p>
                     </ReadBlogOther>
 
                     <ReadBlogOther>

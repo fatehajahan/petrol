@@ -6,7 +6,6 @@ import Container from '../Container/Container'
 const Navbar = () => {
     const [dropdown, setDropdown] = useState(false)
     const drop = () =>{
-        console.log("szdv");
         setDropdown(!dropdown);
     }
     return (

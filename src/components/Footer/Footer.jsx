@@ -14,8 +14,8 @@ const Footer = () => {
     <div>
       <div className="footerup bg-[#1F1F1F] md:pt-[140px] pt-[100px] md:pb-[260px] pb-[150px]">
         <Container>
-          <div className="flex items-center">
-            <div className="left-side pr-[145px] ">
+          <div className="md:flex items-center">
+            <div className="left-side md:pr-[145px]">
               <img src={logo} alt="" />
               <div className="mail pt-[33px]">
                 <p className='relative flex text-white gap-x-[9px] text-[14px]'>< IoMailUnreadOutline className='text-[20px]' /> mail@yourcompany.com</p>
@@ -37,8 +37,8 @@ const Footer = () => {
               </div>
             </div>
 
-            <div className="right-side flex">
-              <div className="company pr-[133px]">
+            <div className="right-side md:flex">
+              <div className="company md:pr-[133px] md:pt-0 pt-[30px]">
                 <ul className='text-white'>
                   <li className='font-bold text-[16px]'>Company</li>
                   <li className='pt-[21px]'>Home</li>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div className="company pr-[60px]">
+              <div className="company md:pr-[60px] md:pt-0 pt-[30px]">
                 <ul className='text-white'>
                   <li className='font-bold text-[16px]'>Others</li>
                   <li className='pt-[21px]'>Blog</li>
@@ -58,7 +58,7 @@ const Footer = () => {
                 </ul>
               </div>
 
-              <div className="Certificate ml-[10px]">
+              <div className="Certificate md:ml-[10px] md:pt-0 pt-[30px]">
                 <h2 className='text-[16px] font-bold text-white pb-[21px]'>Certificate</h2>
                 <ul className='flex gap-x-5'>
                   <img src={cert1} alt="" />
@@ -70,7 +70,7 @@ const Footer = () => {
         </Container>
       </div>
 
-      <div className="footerbottom bg-[#282828]">
+      <div className="footerbottom bg-[#282828] text-center">
         <Container>
           <h2 className='text-[#6C6C6C] md:text-[16px] text-[10px] font-medium md:py-[35px] py-[10px]'>© Copyright 2022 by AltDesain Studio – All right reserved.</h2>
         </Container>
