@@ -25,7 +25,7 @@ const Navbar = () => {
                                 <li className='hover:border-b-2 text-white'><a href="#">Services</a></li>
                                 <li className='hover:border-b-2 text-white'><a href="#">Gallery</a></li>
                                 <li className='hover:border-b-2 text-white'><a href="#">Blog</a></li>
-                                <li className='text-white border-[2px] text-center  py-[6px] px-[10px] md:py-[13px] md:px-[40px] hover:bg-white md:mt-0 mt-6 hover:text-black duration-700'><a href="#">CONTACT</a></li>
+                                <li className='text-white border-2 text-center  py-[6px] px-[10px] md:py-[13px] md:px-[40px] hover:bg-white md:mt-0 mt-6 hover:text-black duration-700'><a href="#">CONTACT</a></li>
                             </ul>
                         </div>
                     </div>

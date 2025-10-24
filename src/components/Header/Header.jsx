@@ -11,11 +11,11 @@ import Container from '../Container/Container';
 
 const Header = () => {
     return (
-        <div className='bg-[#282828] text-white border-b-[5px] border-b-[#FFB800] '>
+        <div className='bg-secondary text-white border-b-[5px] border-b-[#FFB800] '>
             <Container>
                 <div className='md:flex justify-between '>
                     <div className='md:flex  gap-x-[54px]'>
-                        <div className='relative flex items-center gap-x-[5px] after:absolute after:content-[""] after:w-[1px] after:h-[16px] after:bg-[#5C6A92] after:top-[20%] after:right-[-27px]'>
+                        <div className='relative flex items-center gap-x-[5px] after:absolute after:content-[""] after:w-px after:h-[16px] after:bg-[#5C6A92] after:top-[20%] after:right-[-27px]'>
                             <IoMailUnreadOutline className='text-[20px]' />
                             <p className='text-[12px]'>mail@yourcompany.com</p>
                         </div>

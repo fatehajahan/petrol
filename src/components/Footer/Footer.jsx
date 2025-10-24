@@ -70,7 +70,7 @@ const Footer = () => {
         </Container>
       </div>
 
-      <div className="footerbottom bg-[#282828] text-center">
+      <div className="footerbottom bg-secondary text-center">
         <Container>
           <h2 className='text-[#6C6C6C] md:text-[16px] text-[10px] font-medium md:py-[35px] py-[10px]'>© Copyright 2022 by AltDesain Studio – All right reserved.</h2>
         </Container>

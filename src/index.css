@@ -1,9 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap')
+layer(base);
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
+@theme {
+  --container-container: 1141px;
+
+  --background-image-banner: url('/src/assets/banner.png');
+  --background-image-service1: url('/src/assets/services1.png');
+  --background-image-service2: url('/src/assets/services2.png');
+  --background-image-service3: url('/src/assets/services3.png');
+
+  --font-pops: ui-sans-serif, system-ui;
+
+  --color-primary: #f40404;
+  --color-secondary: #282828;
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
 
 @layer base {
     body {
